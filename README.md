@@ -1,9 +1,13 @@
 # [poxford3.github.io](https://poxford3.github.io/)
 where my website will go :)
 
+# to do 
+make things inline on the website? project page
 
-
+#
 enter in the link to your favorite youtube song to add it to the playlist :)
+
+### links
 https://console.cloud.google.com/home/dashboard?folder=&organizationId=&project=parker-website&supportedpurview=project
 
 https://developers.google.com/youtube/v3/getting-started

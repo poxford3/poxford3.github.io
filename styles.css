@@ -24,6 +24,12 @@ li a:hover:not(.active) {
     background-color: #b9cded;
   }
 
+  #bodyAbout {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
 #header {
     display: flex; 
     justify-content: space-between; 
@@ -31,11 +37,24 @@ li a:hover:not(.active) {
     padding-right: 50px; 
     padding-top: 35px;
     border-bottom: 3px solid black;
+    /* position: fixed;
+    width: 94%; */
 }
 
 #headerText {
     font-size: x-large;
     padding-right: 10px;
+}
+
+#imageBox {
+    height: 250px;
+    width: 250px;
+}
+
+#indexBody {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #leftSide {
@@ -44,8 +63,42 @@ li a:hover:not(.active) {
     align-items: center;
 }
 
+#project1 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px ;
+}
+
 #rightSide {
     display: flex;
     justify-content: center; 
     align-items: center;
+}
+
+#spinny {
+    font-size: large;
+    padding-top: 500px;
+    animation-name: spin;
+    animation-duration: 50000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+
+#textBox {
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightslategray;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
 }
