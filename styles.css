@@ -16,6 +16,14 @@ li:last-child {
     border-right: none;
 }
 
+.active {
+    background-color: #04AA6D
+}
+
+li a:hover:not(.active) {
+    background-color: #b9cded;
+  }
+
 #header {
     display: flex; 
     justify-content: space-between; 
