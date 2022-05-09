@@ -63,10 +63,26 @@ li a:hover:not(.active) {
     align-items: center;
 }
 
+#projectList {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 1000px;
+}
+
 #project1 {
     display: flex;
-    width: 100%;
-    justify-content: space-between;
+    width: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+    padding: 10px ;
+}
+
+#project2 {
+    display: flex;
+    width: 500px;
+    justify-content: center;
     padding: 10px ;
 }
 
@@ -80,14 +96,14 @@ li a:hover:not(.active) {
     font-size: large;
     padding-top: 500px;
     animation-name: spin;
-    animation-duration: 50000ms;
+    animation-duration: 25000ms;
     animation-iteration-count: infinite;
     animation-timing-function: linear; 
 }
 
 #textBox {
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;

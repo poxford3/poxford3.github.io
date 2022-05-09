@@ -4,6 +4,8 @@ where my website will go :)
 # to do 
 make things inline on the website? project page
 
+projects page needs to have better set up zz
+
 #
 enter in the link to your favorite youtube song to add it to the playlist :)
 
