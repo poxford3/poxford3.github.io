@@ -16,13 +16,26 @@ li:last-child {
     border-right: none;
 }
 
-.active {
-    background-color: #04AA6D
-}
-
 li a:hover:not(.active) {
     background-color: #b9cded;
   }
+
+ .active {
+    /* background-color: #04AA6D; */
+    text-decoration: underline;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
 
   #bodyAbout {
       display: flex;
