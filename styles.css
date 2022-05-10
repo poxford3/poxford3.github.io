@@ -7,6 +7,7 @@ ul {
 
 li {
     float: left;
+    font-size: 22px;
     padding-right: 10px;
     padding-left: 10px;
     border-right: 1px solid black;
@@ -22,8 +23,8 @@ li a:hover:not(.active) {
 
  .active {
     /* background-color: #04AA6D; */
-    color: gold;
-    text-decoration: underline;
+    color: #F0EBD8;
+    text-decoration: underline !important;
 }
 
 a:link {
@@ -38,7 +39,7 @@ a:visited {
     text-decoration: none;
 }
 
-  #bodyAbout {
+#bodyAbout {
       display: flex;
       justify-content: center;
       align-items: center;
@@ -51,18 +52,23 @@ a:visited {
     padding-right: 50px; 
     padding-top: 35px;
     border-bottom: 3px solid black;
-    /* position: fixed;
-    width: 94%; */
+}
+
+#headerImg {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
 }
 
 #headerText {
-    font-size: x-large;
+    font-size: 40px;
     padding-right: 10px;
 }
 
 #imageBox {
-    height: 250px;
-    width: 250px;
+    height: 350px;
+    width: 350px;
+    margin: auto;
 }
 
 #indexBody {
@@ -77,16 +83,22 @@ a:visited {
     align-items: center;
 }
 
+#mainTheme {
+    background-color: #748CAB;
+}
+
 #projectList {
+    margin: auto;
+    padding: 10px;
     justify-content: center;
     align-items: center;
-    width: 80%;
+    width: 90%;
     height: 1000px;
 }
 
 #project1 {
     display: flex;
-    width: 500px;
+    width: 90%;
     padding-left: 10px;
     padding-right: 10px;
     justify-content: center;
@@ -95,7 +107,7 @@ a:visited {
 
 #project2 {
     display: flex;
-    width: 500px;
+    width: 90%;
     justify-content: center;
     padding: 10px ;
 }
@@ -117,11 +129,15 @@ a:visited {
 
 #textBox {
     height: 350px;
-    width: 90%;
+    width: 350px;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightslategray;
+    background-color: #F0EBD8;
+    margin: auto;
 }
 
 @keyframes spin {
