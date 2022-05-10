@@ -2,9 +2,9 @@
 where my website will go :)
 
 # to do 
-make things inline on the website? project page
+make things inline on the website? project page (better but still needs work)
 
-projects page needs to have better set up zz
+create api uses
 
 #
 enter in the link to your favorite youtube song to add it to the playlist :)
