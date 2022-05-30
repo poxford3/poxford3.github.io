@@ -46,7 +46,7 @@ a:active{
 }
 
 a:visited {
-    text-decoration: non !important;
+    text-decoration: none !important;
 }
 
 #bodyAbout {
