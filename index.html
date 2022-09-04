@@ -2,8 +2,34 @@
 <html id="mainTheme">
     <head>
         <link rel="stylesheet" href="styles.css">
+        <style>
+            #buttonText {
+                color: black;
+            }
+            #introSection {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border-width: 3px;
+                border-color: black;
+                flex-direction: column;
+            }
+            #introText {
+                text-align: center;
+            }
+            #secretButton {
+                background-color: #a3aab4;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 5px;
+                border-width: 1ch;
+                padding: 5px;
+            }
+        </style>
         <!-- uncomment below to update page automatically (content is seconds btw refresh) -->
-        <!-- <meta http-equiv="refresh" content="2" > -->
+        <meta http-equiv="refresh" content="2" >
         <script type="text/javascript" src="https://livejs.com/live.js"></script>
         <link rel="icon" href="./Smile_Image.png">
         <title>Poxford3 Github</title>
@@ -29,9 +55,23 @@
             </div>
         </div>
         <!-- main body -->
-        <div id="indexBody">
+        <!-- <div id="indexBody">
             <div>just click the other tabs lol what goes on a main page?????</div>
             <img src="./upper-right-arrow.png" alt="arrow point to top right of screen (other options)">
+        </div> -->
+
+        <div id="introSection">
+            <div id="introText">
+                <h1>Parker Oxford</h1>
+                <h3>hey how's it going</h3>
+            </div>
+            <div id="secretButton">
+                <a href="./fancyPage.html">
+                    <p id="buttonText">
+                    Click me to go to the secret page...
+                </p></a>
+            </div>
+
         </div>
     </body>
 </html>
