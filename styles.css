@@ -80,6 +80,9 @@ a:visited {
     height: 350px;
     width: 350px;
     margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #indexBody {

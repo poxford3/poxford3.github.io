@@ -1,145 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <style>
-      a {
-        text-decoration: none;
-        color: #fff;
-      }
-      a:link {
-        text-decoration: none !important;
-      }
-
-      a:active {
-        text-decoration: none;
-      }
-
-      a:visited {
-        text-decoration: none !important;
-      }
-      html {
-        background-color: rgb(29, 27, 31);
-        height: 100%;
-        width: 100%;
-      }
-      body {
-        height: 100%;
-        width: 100%;
-        padding: 10px;
-      }
-      ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-      }
-
-      .container {
-        position: relative;
-        /* background: #a4aec2; */
-        height: 100vh;
-        overflow: hidden;
-      }
-
-      .circle {
-        position: absolute;
-        border-radius: 50%;
-        background: #fff;
-        opacity: 0;
-        visibility: hidden;
-      }
-
-      .fade-in {
-        animation: fadeIn 5s;
-      }
-
-      @keyframes fadeIn {
-        0% {
-          opacity: 0;
-        }
-        100% {
-          opacity: 1;
-        }
-      }
-
-      #header {
-        height: 70px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        display: flex;
-        justify-content: center;
-      }
-
-      #icon {
-        display: flex;
-        width: 60px;
-        height: 60px;
-        font-size: 34px;
-        /* border-radius: 20px; */
-        justify-content: center;
-        align-items: center;
-        color: white;
-        /* background-color: white; */
-      }
-      #icons {
-        display: flex;
-        flex-direction: row;
-      }
-      #mainDiv {
-        display: flex;
-        flex-direction: row;
-        height: 100%;
-      }
-      #mainLinks {
-        color: azure;
-        margin: 5px;
-      }
-      #leftSide {
-        display: flex;
-        width: 50%;
-        height: 80%;
-        align-items: flex-start;
-        flex-direction: column;
-        justify-content: flex-end;
-      }
-      #rightSide {
-        height: 100%;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      #pageButtons {
-        display: flex;
-      }
-      #scrollImage {
-        padding-top: 15px;
-        padding-bottom: 15px;
-      }
-      #scrollList {
-        height: 100%;
-        color: #fff;
-        overflow-x: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-      #username {
-        color: azure;
-        font-size: 40px;
-        padding-left: 10px;
-      }
-    </style>
-    <script src="circles.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="fancy.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- <script src="circles.js" type="text/javascript"></script> -->
     <script
       src="https://kit.fontawesome.com/3e25213230.js"
       crossorigin="anonymous"
     ></script>
+    <script type="text/javascript" src="fancy.js"></script>
     <script type="text/javascript" src="https://livejs.com/live.js"></script>
     <link rel="icon" href="./Smile_Image.png" />
-    <title>Poxford3 Github</title>
+    <title>poxford3 Github</title>
   </head>
   <body class="container">
     <div id="mainDiv">
@@ -148,49 +20,43 @@
           <p id="username">poxford3</p>
         </div>
         <div id="icons">
-            <a
-              target="_blank"
-              href="mailto:parkertoxford@gmail.com?subject=Interest in Website&body=Hey Paker, I looked at your website and was interested in getting some more information."
-              ><i class="fas fa-envelope" id="icon"></i
-            ></a>
-            <a target="_blank" href="https://github.com/poxford3"
-              ><i class="fab fa-github" id="icon"></i
-            ></a>
-          <abbr title="LinkedIn">
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/parker-oxford-071061136/"
-              ><i class="fab fa-linkedin" id="icon"></i
-            ></a>
-          </abbr>
-          <!-- <abbr title="Resume">
-            <a target="_blank" href="./Parker_Oxford_resume_7.24.22.pdf"
-              ><i class="fa-regular fa-file-pdf" id="icon"></i
-            ></a>
-          </abbr> -->
+          <a target="_blank" href="https://github.com/poxford3"
+            ><i class="fab fa-github" id="icon"></i
+          ></a>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/parker-oxford-071061136/"
+            ><i class="fab fa-linkedin" id="icon"></i
+          ></a>
+          <a
+            target="_blank"
+            href="mailto:parkertoxford@gmail.com?subject=Interest in Website&body=Hey Paker, I looked at your website and was interested in getting some more information."
+            ><i class="fas fa-envelope" id="icon"></i
+          ></a>
         </div>
-        <div id="pageButtons">
-          <!-- <p id="mainLinks">
-            <a href="https://www.reddit.com/r/VladimirMains/"
-              >Report the inters</a
-            >
-          </p> -->
-        </div>
+        <span id="moreLess" class="visButton"> More... </span>
+        <!-- onclick="showRightSide()" -->
       </div>
       <div id="rightSide">
-        <marquee id="scrollList" scrollDelay="100" direction="down">
-          <img
-            id="scrollImage"
-            style="height: 500px; width: auto"
-            src="https://raw.githubusercontent.com/poxford3/weatherApp/master/assets/currentImage.png"
-          />
-          <br />
-          <img
-            id="scrollImage"
-            style="height: 500px; width: auto"
-            src="https://raw.githubusercontent.com/poxford3/jupyter/main/main_view.PNG"
-          />
-        </marquee>
+        <div id="projectList">
+          <h1 class="skills">skills</h1>
+          <div class="listgroup">
+            <div class="listname">python</div>
+            <div class="listinfo">python bio</div>
+          </div>
+          <div class="listgroup">
+            <div class="listname">sql</div>
+            <div class="listinfo">sql bio</div>
+          </div>
+          <div class="listgroup">
+            <div class="listname">javascript</div>
+            <div class="listinfo">js bio</div>
+          </div>
+          <div class="listgroup">
+            <div class="listname">react native</div>
+            <div class="listinfo">rn bio</div>
+          </div>
+        </div>
       </div>
     </div>
   </body>

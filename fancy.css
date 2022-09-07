@@ -1,0 +1,171 @@
+a {
+    text-decoration: none;
+    color: #fff;
+  }
+  a:link {
+    text-decoration: none !important;
+  }
+
+  a:active {
+    text-decoration: none;
+  }
+
+  a:visited {
+    text-decoration: none !important;
+  }
+  html {
+    background-color: rgb(29, 27, 31);
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .visButton {
+    color: #fff;
+    background-color: rgb(29, 27, 31);
+    padding-left: 10px;
+    padding-top: 5px;
+    font-size: 24px;
+  }
+
+  .visButton:hover {
+    color: #748CAB;
+  }
+
+
+  .container {
+    position: relative;
+    /* background: #a4aec2; */
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  .circle {
+    position: absolute;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .fade-in {
+    animation: fadeIn 5s;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  #header {
+    height: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  #icon {
+    display: flex;
+    width: 60px;
+    height: 60px;
+    font-size: 34px;
+    /* border-radius: 20px; */
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* background-color: white; */
+  }
+  #icons {
+    display: flex;
+    flex-direction: row;
+  }
+  #mainDiv {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+  #mainLinks {
+    color: azure;
+    margin: 5px;
+  }
+  #leftSide {
+    display: flex;
+    width: 50%;
+    height: 80%;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  #rightSide {
+    height: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  #pageButtons {
+    display: flex;
+  }
+  #projectList {
+    /* display: none; */
+    color: #fff;
+    font-size: 120%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #projectList h2 {
+    color: #fff;
+  }
+  #scrollImage {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  #scrollList {
+    height: 100%;
+    color: #fff;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #username {
+    color: azure;
+    font-size: 40px;
+    padding-left: 10px;
+  }
+
+
+h1, .listname, .listinfo {
+    display: none;
+    text-align: center;
+}
+
+.listgroup:hover {
+    color: #748CAB;
+}
+
+.listgroup {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
