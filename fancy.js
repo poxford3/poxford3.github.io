@@ -31,7 +31,16 @@ $(document).ready(function () {
     console.log($(this).siblings());
     var parentJustify = $(this).css("justify-content") === "center" ? "space-between" : "center"; 
     $(this).css("justify-content", parentJustify);
-    $(this).children().toggle();  // needs work here 
-    $(this).siblings().toggle();
+    // $(this).children().toggle();  // needs work here 
+    // $(this).siblings().toggle();
   })
+
+  $(".skills").click(function() {
+    window.location.replace("https://cdna.artstation.com/p/assets/images/images/001/710/276/large/jean-go-eo-and-wallpaperimage-1200.jpg?1451444100");
+  })
+
+  $("#jgl").click(function() {
+    window.location.replace("https://www.youtube.com/watch?v=ATvjPh5Sg1E");
+  })
+
 });
