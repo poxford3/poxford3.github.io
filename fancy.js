@@ -43,4 +43,8 @@ $(document).ready(function () {
     window.location.replace("https://www.youtube.com/watch?v=ATvjPh5Sg1E");
   })
 
+  $("#rn").click(function() {
+    window.location.replace("https://en.wikipedia.org/wiki/Native_Americans_in_the_United_States");
+  })
+
 });

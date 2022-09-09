@@ -1,5 +1,4 @@
 var container = $(".container");
-// var container = document.getElementsByClassName("cotainer")[0];
 
 var numCircles = 30;
 
